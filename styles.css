@@ -6,7 +6,24 @@ body {
 
     font-size: 16px;
     font-weight: normal;
-    /*font-family: "Bodoni MT";*/
     font-family: "Roboto", sans-serif;
 
+    /*font: normal 16px 'Roboto', sans-serif;  */
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 42px;*/
 }
