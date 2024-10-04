@@ -1,100 +1,126 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Vlad CV</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <table cellpadding="15" border="15">
-            <tr>
-                <td>
-                    <img
-                        src="avatar.webp"
-                        width="400"
-                        alt="Тут моя фотка"
-                    >
-                </td>
-                <td>
+        <div class="container">
+            <div class="info">
+                <img src="avatar.webp" alt="Тут моя фотка" class="avatar">
+
+               <div class="info-text">
                     <h1>Vlad Sydorovskyi</h1>
-                    <p><em>Я основатель одноименного <strong>ютуб канала</strong></em></p>
+                    <p>Я основатель одноименного <strong>ютуб канала</strong></p>
                     <p>Я люблю путишествовать заниматься спортом и прогпаммирывать</p>
-                </td>
-            </tr>
-        </table>
 
-        <hr>
+                    <h4>Мои социальные сети</h4>
+                    <a href="https:instagram.com/vladilen.minin" target="_blank">Instagram</a>
+                    |
+                    <a href="http://t.me/js_by_vladilen" target="_blank">Telegram</a>
+               </div>
+            </div>
 
-        <h2>Мои социальные сети</h2>
-        <ul type="square">
-            <li><strong><a href="ahttps:istagram.com/vladilen.minin"target="_blank">Istagram</a></strong></li>
-            <li><strong><a href="http://t.me/js_by_vladilen">TELEGRAM</a></strong></li>
-        </ul>
-        <hr>
-        <h2>Мои хобби</h2>
-        <ol type="I" >
-            <li><strong>СПОРТ</strong></li>
-            <li><strong>ИГРАТЬ В КОМПЮТЕРНЫЕ ИГРЫ</strong></li>
-            <li><strong>СПАТЬ</strong></li>
-            <li><strong>ИГРАТЬ С КОТОМ</strong></li>
-        </ol>
+            <div class="card bg-yelow">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li><strong>СПОРТ</strong></li>
+                    <li><strong>ИГРАТЬ В КОМПЮТЕРНЫЕ ИГРЫ</strong></li>
+                    <li><strong>СПАТЬ</strong></li>
+                    <li><strong>ИГРАТЬ С КОТОМ</strong></li>
+                </ol>
+            </div>
 
-        <hr>
+            <div class="card bg-green">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <tr>
+                        <td><strong>LPTracker</strong></td>
+                        <td><strong>Frontend</strong></td>
+                        <td><strong>2015 - 2016</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EPAM</strong></td>
+                        <td><strong>Software Engineer</strong></td>
+                        <td><strong>2016 - 2017</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Software Outsorcing Services</strong></td>
+                        <td><strong>Lead Frontend</strong></td>
+                        <td><strong>2017 - 2019</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>YouTube</strong></td>
+                        <td><strong>Blogger</strong></td>
+                        <td><strong>2019 - now</strong></td>
+                    </tr>
+                </table>
+            </div>
 
-        <h2>Опыт работы</h2>
 
-        <table border="2">
-            <tr>
-                <th><strong>Компания</strong></th>
-                <th><strong>Должность</strong></th>
-                <th><strong>Год</strong></th>
-            </tr>
-            <tr>
-                <td><strong>EPAM</strong></td>
-                <td><strong>Software Engineer</strong></td>
-                <td><strong>2016 - 2017</strong></td>
-            </tr>
-            <tr>
-                <td><strong>Software Outsorcing Services</strong></td>
-                <td><strong>Lead Frontend</strong></td>
-                <td><strong></strong>2017 - 2019</td>
-            </tr>
-        </table>
+            <div class="card bg-red">
+                <h2>Youtube Курсы</h2>
+                <ul class="link-list">
+                    <li>
+                        <a
+                            href="https://www.youtube.com/watch?v=SBlLW1eKFBk&ab_channel=%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%D1%8F%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D0%A1%D0%A1%D0%A1%D0%A0"
+                            target="_blank"
+                        >
+                            JavaScript Основы для Начинаюших - Полный курс за 6 часов
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.youtube.com/watch?v=MkgllOY6lS8&ab_channel=%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%D1%8F%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D0%A1%D0%A1%D0%A1%D0%A0"
+                            target="_blank"
+                        >
+                            Посмотри ВанПис самое лучшее аниме
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <hr>
+            <div class="contact">
+                <h2>Связаться со мной</h2>
 
-        <h2>Youtube Курсы</h2>
-        <a href="youtube.html">Посмотреть список</a>
+                <form action="">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Введите ваше имя..."
+                            >
+                        </div>
 
-        <hr>
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input
+                                type="text"
+                                id="email"
+                                placeholder="Введите email..."
+                            >
+                        </div>
+                    </div>
 
-        <h2>Связаться со мной</h2>
+                    <div class="form-group">
+                        <label for="text">Ваше сообшение:</label>
+                        <br>
+                        <textarea id="text" rows="2" cols="15"></textarea>
+                    </div>
 
-        <form action="">
-            <label for="name">Ваше имя:</label>
-            <input
-                    type="text"
-                    id="name"
-                    placeholder="Введите ваше имя..."
-            >
+                    <input type="submit" value="Связаться!" class="btn">
+                </form>
+            </div>
 
-            <br>
+            <div class="position">
+                <div class="box"></div>
+            </div>
 
-            <label for="email">Ваш Email:</label>
-            <input
-                    type="text"
-                    id="email"
-                    placeholder="Введите email..."
-            >
+        </div>
 
-            <br>
-
-            <label for="text">Ваше сообшение:</label>
-            <br>
-            <textarea  id="text"></textarea>
-
-            <br>
-
-            <input type="submit" value="Связаться!">
-        </form>
+        <div style="margin-bottom: 50px"></div>
     </body>
 </html>
